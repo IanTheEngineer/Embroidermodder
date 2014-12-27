@@ -35,6 +35,12 @@ The Qt, KDE and Valgrind build dependencies can be installed easily by opening a
 ```
 sudo yum install git gdb gcc-c++ qt-devel kdelibs-devel valgrind
 ```
+
+Mac OS X repository packages:
+After installing the OS X package manager [Homebrew](http://brew.sh), Qt can be installed easily by opening a terminal and issuing this command:
+```
+brew install qt
+```
 Building
 --------
 

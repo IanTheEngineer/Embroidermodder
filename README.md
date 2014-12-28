@@ -37,7 +37,8 @@ sudo yum install git gdb gcc-c++ qt-devel kdelibs-devel valgrind
 ```
 
 Mac OS X repository packages:
-After installing the OS X package manager [Homebrew](http://brew.sh), Qt can be installed easily by opening a terminal and issuing this command:
+It is recommended that you first install [XQuartz](http://xquartz.macosforge.org), setting it to be your default X11 server, and logout/login again or restart.
+Then, after installing the OS X package manager [Homebrew](http://brew.sh), Qt can be installed easily by opening a terminal and issuing this command:
 ```
 brew install qt
 ```
